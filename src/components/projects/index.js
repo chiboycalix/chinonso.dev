@@ -141,7 +141,7 @@ export default function Projects() {
 								</CardActionArea>
 								<CardContent>
 									<Typography gutterBottom variant="h5" component="h2">
-										mCash
+										mCash Portal
 									</Typography>
 									<Typography variant="body2" color="textSecondary" component="p">
 										mCASH is an innovative payment solution designed to facilitate retail payments to Merchants.
@@ -189,7 +189,7 @@ export default function Projects() {
 								</CardActionArea>
 								<CardContent>
 									<Typography gutterBottom variant="h5" component="h2">
-										GSI
+										GSI Portal
 									</Typography>
 									<Typography variant="body2" color="textSecondary" component="p">
 										Helps to reduce non-performing loans in the nigerian banking system. This helps in watch-listing
