@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/chinonso.dev/static/css/main.afef13ca.chunk.css",
+    "main.js": "/chinonso.dev/static/js/main.59effc62.chunk.js",
+    "main.js.map": "/chinonso.dev/static/js/main.59effc62.chunk.js.map",
+    "runtime-main.js": "/chinonso.dev/static/js/runtime-main.e5aaf99b.js",
+    "runtime-main.js.map": "/chinonso.dev/static/js/runtime-main.e5aaf99b.js.map",
+    "static/js/2.33de21bb.chunk.js": "/chinonso.dev/static/js/2.33de21bb.chunk.js",
+    "static/js/2.33de21bb.chunk.js.map": "/chinonso.dev/static/js/2.33de21bb.chunk.js.map",
+    "index.html": "/chinonso.dev/index.html",
+    "static/css/main.afef13ca.chunk.css.map": "/chinonso.dev/static/css/main.afef13ca.chunk.css.map",
+    "static/js/2.33de21bb.chunk.js.LICENSE.txt": "/chinonso.dev/static/js/2.33de21bb.chunk.js.LICENSE.txt",
+    "static/media/authorHaven.099f73cc.png": "/chinonso.dev/static/media/authorHaven.099f73cc.png",
+    "static/media/App.scss": "/chinonso.dev/static/media/bg-img.e7f1eeee.jpg",
+    "static/media/covid.c04122fe.png": "/chinonso.dev/static/media/covid.c04122fe.png",
+    "static/media/gsi.313e797c.png": "/chinonso.dev/static/media/gsi.313e797c.png",
+    "static/media/mCash.cc2cb347.png": "/chinonso.dev/static/media/mCash.cc2cb347.png",
+    "static/media/netflix.8fd0842d.png": "/chinonso.dev/static/media/netflix.8fd0842d.png",
+    "static/media/svm.8cd6beeb.png": "/chinonso.dev/static/media/svm.8cd6beeb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5aaf99b.js",
+    "static/js/2.33de21bb.chunk.js",
+    "static/css/main.afef13ca.chunk.css",
+    "static/js/main.59effc62.chunk.js"
+  ]
+}
