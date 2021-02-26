@@ -1,0 +1,72 @@
+
+.MuiAppBar-colorPrimary {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+.MuiBackdrop-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  z-index: -1;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiDrawer-paper {
+  top: 0;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: 0;
+  z-index: 1200;
+  position: fixed;
+  overflow-y: auto;
+  flex-direction: column;
+  -webkit-overflow-scrolling: touch;
+  background: rgb(36, 55, 77) !important;
+  color: rgba(255,255,255,.5) !important;
+}
+
+.MuiListItemIcon-root {
+  color: rgba(0, 0, 0, 0.54);
+  display: inline-flex;
+  min-width: 56px;
+  flex-shrink: 0;
+  color: rgba(255,255,255,.5) !important;
+}
+body{
+  background-color: #eeeeee;
+  padding: 0;
+  margin: 0;
+}
+.app {
+  display: flex;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #eeeeee;
+}
+
+.banner{
+  width: 100vw;
+  height: 480px;
+  background-image: url('./assets/img/bg-img.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.wrapper{
+  width: 60%;
+  margin-left: 20%;
+  position: absolute;
+
+}
+@media(max-width: 768px){
+  .wrapper{
+    width: 99% !important;
+    margin-left: .5%;
+  }
+}
