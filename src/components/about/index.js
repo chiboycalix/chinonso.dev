@@ -274,6 +274,11 @@ export default function About() {
 													}
 													{
 														<span className={classes.span}>
+															<Chip label="SEO" size="small" icon={<CheckIcon style={{ color: 'green' }} />} />
+														</span>
+													}
+													{
+														<span className={classes.span}>
 															<Chip label="Material UI" size="small" icon={<CheckIcon style={{ color: 'green' }} />} />
 														</span>
 													}

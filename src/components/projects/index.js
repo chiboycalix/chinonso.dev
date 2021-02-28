@@ -192,8 +192,8 @@ export default function Projects() {
 										GSI Portal
 									</Typography>
 									<Typography variant="body2" color="textSecondary" component="p">
-										Helps to reduce non-performing loans in the nigerian banking system. This helps in watch-listing
-										consitent load defaulters
+										Helps to reduce non-performing loans in the Nigerian banking system. This helps in watch-listing
+										consistent loan defaulters
 									</Typography>
 								</CardContent>
 								<CardActions>
