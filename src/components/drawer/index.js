@@ -68,6 +68,15 @@ const useStyles = makeStyles({
 			color: '#211F1F',
 		},
 	},
+	devto: {
+		'&:hover': {
+			color: '#211F1F',
+		},
+	},
+	devTo: {
+		width: "25px",
+		height: "25px"
+	},
 	Icon: {
 		fontSize: '1rem',
 	},
@@ -137,6 +146,14 @@ export default function Sidebar({ toggleDrawer, state }) {
 										rel="noreferrer"
 										className={classes.socialLinks}>
 										<GitHubIcon className={classes.Icons} />
+									</a>
+								</Tooltip>
+							</Grid>
+							<Grid key="5" item className={`${classes.icon} ${classes.devto}`}>
+								<Tooltip title="Dev.to" placement="bottom" target="_blank"
+									rel="noreferrer">
+									<a href="https://dev.to/cigwe416" className={classes.socialLinks}>
+										<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="cigwe416's DEV Community Profile" height="30" width="30" className={classes.devTo} />
 									</a>
 								</Tooltip>
 							</Grid>

@@ -5,7 +5,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
@@ -86,6 +85,15 @@ const useStyles = makeStyles({
 		'&:hover': {
 			color: '#211F1F',
 		},
+	},
+	devto: {
+		'&:hover': {
+			color: '#211F1F',
+		},
+	},
+	devTo: {
+		width: "25px",
+		height: "25px"
 	},
 	gridItemRight: {
 		margin: '4rem 0',
@@ -202,6 +210,15 @@ export default function About() {
 															rel="noreferrer"
 															className={classes.socialLinks}>
 															<GitHubIcon className={classes.Icons} />
+														</a>
+													</Tooltip>
+												</Grid>
+
+												<Grid key="5" item className={`${classes.icon} ${classes.devto}`}>
+													<Tooltip title="Dev.to" placement="bottom" target="_blank"
+														rel="noreferrer">
+														<a href="https://dev.to/cigwe416" className={classes.socialLinks}>
+															<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="cigwe416's DEV Community Profile" height="30" width="30" className={classes.devTo} />
 														</a>
 													</Tooltip>
 												</Grid>
