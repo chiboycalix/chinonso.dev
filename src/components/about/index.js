@@ -231,7 +231,7 @@ export default function About() {
 										Igwe Chinonso
 									</Typography>
 									<Typography gutterBottom className={classes.skills}>
-										Frontend Developer
+										Software Engineer
 										{bull} Learner
 										{bull} Engineer
 									</Typography>
